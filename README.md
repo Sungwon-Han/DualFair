@@ -26,14 +26,14 @@ Link: http://www.seaphe.org/databases.php
 
 
 ### Required packages
-The code has been tested running under Python 3.7.3. with the following packages installed (along with their dependencies):
+The code has been tested running under Python 3.8.5. with the following packages installed (along with their dependencies):
 
-- numpy == 1.18.1
+- numpy == 1.22.4
 - pandas == 1.1.4
-- torch == 1.2.0
-- scikit-learn == 0.22.1
+- torch == 1.9.1
+- scikit-learn == 0.23.2
 - rdt == 0.5.3
-- tqdm == 4.44.1
+- tqdm == 4.50.2
 
 <p>We recommend using the open data science platform <a href="https://www.continuum.io/downloads" rel="nofollow">Anaconda</a>.</p>
 
@@ -56,7 +56,7 @@ python3 dualfair.py --dataset <DATASET> --sensitive <SENSITIVE_ATTRIBUTE> --gpu 
 ## Evaluation
 You can evaluate the trained model with the following command.  
 Please provide a file name of the saved model checkpoint in ./output/dualfair.  
-File name will have a following format - "dualfair_<DATASET>\_<SENSITIVE_ATTRIBUTE>\_seed\_<SEED_NUM>\_<TIME_STAMP>"  
+File name will have a following format - "dualfair_<DATASET>_<SENSITIVE_ATTRIBUTE>_seed_<SEED_NUM>_<TIME>"  
 ```
 python3 evaluate.py --save_pre <FILE_NAME> --dataset <DATASET> --sensitive <SENSITIVE_ATTRIBUTE>
 ```
