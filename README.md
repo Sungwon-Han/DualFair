@@ -56,7 +56,7 @@ python3 dualfair.py --dataset <DATASET> --sensitive <SENSITIVE_ATTRIBUTE> --gpu 
 ## Evaluation
 You can evaluate the trained model with the following command.  
 Please provide a file name of the saved model checkpoint in ./output/dualfair.  
-File name will have a following format - "dualfair_<DATASET>_<SENSITIVE_ATTRIBUTE>_seed_<SEED_NUM>_<TIME>"  
+File name will have a following format - "dualfair_<DATASET>\_<SENSITIVE_ATTRIBUTE>\_seed\_<SEED_NUM>\_<TIME_STAMP>"  
 ```
 python3 evaluate.py --save_pre <FILE_NAME> --dataset <DATASET> --sensitive <SENSITIVE_ATTRIBUTE>
 ```
