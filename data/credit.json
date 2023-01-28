@@ -1,0 +1,88 @@
+{
+    "columns": [
+        {
+            "name": "status_acocunt",
+            "type": "categorical"
+        },
+        {
+            "name": "duration",
+            "type": "continuous"
+        },
+        {
+            "name": "credit_history",
+            "type": "categorical"
+        },
+        {
+            "name": "purpose",
+            "type": "categorical"
+        },
+        {
+            "name": "amount",
+            "type": "continuous"
+        },
+        {
+            "name": "savings",
+            "type": "categorical"
+        },
+        {
+            "name": "employment",
+            "type": "categorical"
+        },
+        {
+            "name": "installment_rate",
+            "type": "continuous"
+        },
+        {
+            "name": "sex",
+            "type": "categorical"
+        },
+        {
+            "name": "debtors",
+            "type": "categorical"
+        },
+        {
+            "name": "residence",
+            "type": "continuous"
+        },
+        {
+            "name": "property",
+            "type": "categorical"
+        },
+        {
+            "name": "age",
+            "type": "continuous"
+        },
+        {
+            "name": "plans",
+            "type": "categorical"
+        },
+        {
+            "name": "housing",
+            "type": "categorical"
+        },
+        {
+            "name": "credits",
+            "type": "continuous"
+        },
+        {
+            "name": "job",
+            "type": "categorical"
+        },
+        {
+            "name": "maintenance",
+            "type": "continuous"
+        },
+        {
+            "name": "telephone",
+            "type": "categorical"
+        },
+        {
+            "name": "foreign",
+            "type": "categorical"
+        },
+        {
+            "name": "label",
+            "type": "categorical"
+        }
+    ]
+}

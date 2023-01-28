@@ -1,0 +1,36 @@
+{
+    "columns": [
+        {
+            "name": "Age_Above_FourtyFive",
+            "type": "categorical"
+        },
+        {
+            "name": "Age_Below_TwentyFive",
+            "type": "categorical"
+        },
+        {
+            "name": "Misdemeanor",
+            "type": "categorical"
+        },
+        {
+            "name": "Number_of_Priors",
+            "type": "continuous"
+        },
+        {
+            "name": "race",
+            "type": "categorical"
+        },
+        {
+            "name": "score_factor",
+            "type": "categorical"
+        },
+        {
+            "name": "sex",
+            "type": "categorical"
+        },
+        {
+            "name": "Two_yr_Recidivism",
+            "type": "categorical"
+        }
+    ]
+}

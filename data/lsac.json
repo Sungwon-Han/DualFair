@@ -1,0 +1,56 @@
+{
+    "columns": [
+        {
+            "name": "fulltime",
+            "type": "categorical"
+        },
+        {
+            "name": "fam_inc",
+            "type": "categorical"
+        },
+        {
+            "name": "parttime",
+            "type": "categorical"
+        },
+        {
+            "name": "sex",
+            "type": "categorical"
+        },
+        {
+            "name": "race",
+            "type": "categorical"
+        },
+        {
+            "name": "lsat",
+            "type": "continuous"
+        },
+        {
+            "name": "ugpa",
+            "type": "continuous"
+        },
+        {
+            "name": "zfygpa",
+            "type": "continuous"
+        },
+        {
+            "name": "DOB_yr",
+            "type": "continuous"
+        },
+        {
+            "name": "zgpa",
+            "type": "continuous"
+        },
+        {
+            "name": "tier",
+            "type": "continuous"
+        },
+        {
+            "name": "index6040",
+            "type": "continuous"
+        },
+        {
+            "name": "pass_bar",
+            "type": "categorical"
+        }
+    ]
+}
